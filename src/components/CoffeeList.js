@@ -6,7 +6,6 @@ function CoffeeList(props) {
 
   return (
     <React.Fragment>
-      <hr/>
       {props.coffeeList.map((coffee) =>
         <Coffee
           whenCoffeeClicked = { props.onCoffeeSelection }
@@ -22,10 +21,10 @@ function CoffeeList(props) {
     </React.Fragment>
   )
 }
-TicketList.propTypes = {
-  ticketList: PropTypes.array,
-  onTicketSelection: PropTypes.func
+CoffeeList.propTypes = {
+  coffeeList: PropTypes.array,
+  onCoffeeSelection: PropTypes.func
 };
 
 
-export default TicketList;
+export default CoffeeList;
