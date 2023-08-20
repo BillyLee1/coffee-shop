@@ -9,7 +9,7 @@ function CoffeeList(props) {
       {props.coffeeList.map((coffee) =>
         <Coffee
           whenCoffeeClicked = { props.onCoffeeSelection }
-          whenSellClicked = { props.onSellCoffee }
+          whenSellClicked = { props.onSellingCoffee }
           name={coffee.name}
           origin={coffee.origin}
           roast={coffee.roast}
