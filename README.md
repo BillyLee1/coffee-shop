@@ -12,7 +12,7 @@
 * _VSCode_
 
 ## Description
-_This is a simple website to track the inventory of a coffee shop. You can add different coffee's into the website. Attributes such as coffee name, quanitity, origin, price, and roast type. There is full CRUD capabilities allowing you to edit the stock of coffee at any time._
+_This is a simple website to track the inventory of a coffee shop. You can add different coffees into the website. Attributes such as coffee name, quanitity, origin, price, and roast type. There is full CRUD capabilities allowing you to edit the stock of coffee at any time._
 
 ## Setup/Installation Requirements
 
